@@ -981,3 +981,17 @@ ts-jumper, ts-jumper.active {
 ts-jumper ts-jumper-container {
   box-shadow: 0 5px 20px rgba(0,0,0,1);
 }
+
+div.c-virtual_list__scroll_container {
+  background-color: black !important;
+}
+.p-message_pane .c-message_list:not(.c-virtual_list--scrollbar), .p-message_pane .c-message_list.c-virtual_list--scrollbar > .c-scrollbar__hider {
+  z-index: 0;
+}
+div.c-message__content:hover {
+  background-color: black !important;
+}
+
+div.c-message:hover {
+ background-color: black !important;
+}
